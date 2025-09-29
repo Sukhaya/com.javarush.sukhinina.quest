@@ -9,7 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4af1dec-8e5b-49c9-837f-c92e64022fcf" name="Changes" comment="" />
+    <list default="true" id="b4af1dec-8e5b-49c9-837f-c92e64022fcf" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,6 +31,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Sukhaya&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Sukhaya/com.javarush.sukhinina.quest.git&quot;,
+    &quot;accountId&quot;: &quot;d71177a9-4cba-467b-a0a2-88f339254b63&quot;
+  }
+}</component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
@@ -48,53 +62,53 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.EndServletTest.executor": "Run",
-    "JUnit.EndServletTest.testDoGet_forwardsToEndJsp_withEndText.executor": "Run",
-    "JUnit.EndServletTest.testDoGet_forwardsToStartJsp.executor": "Run",
-    "JUnit.EndServletTest.testDoGet_setsEndTextAttributeAndForwards.executor": "Run",
-    "JUnit.InitServletTest.executor": "Run",
-    "JUnit.InitServletTest.testDoGet_forwardsToStartJsp.executor": "Run",
-    "JUnit.QuestRepositoryTest.executor": "Run",
-    "JUnit.QuestServiceTest.executor": "Run",
-    "JUnit.QuestServletTest.executor": "Run",
-    "JUnit.QuestServletTest.testDoGet.executor": "Run",
-    "JUnit.QuestServletTest.testDoGet_defaultQuestionId_setsQuestionAttribute.executor": "Run",
-    "JUnit.QuestServletTest.testDoGet_setsQuestionAttribute.executor": "Run",
-    "JUnit.QuestServletTest.testDoGet_withQuestionId.executor": "Run",
-    "JUnit.QuestServletTest.testDoGet_withQuestionId_setsCorrectQuestion.executor": "Run",
-    "JUnit.QuestServletTest.testDoGet_withoutQuestionId_defaultsTo1.executor": "Run",
-    "JUnit.QuestServletTest.testDoPost_finalAnswer_forwardsToEnd.executor": "Run",
-    "JUnit.QuestServletTest.testDoPost_forAnswer_setsEndAttributes_whenWinning.executor": "Run",
-    "JUnit.QuestServletTest.testDoPost_forWinningAnswer_forwardsToEnd.executor": "Run",
-    "JUnit.QuestServletTest.testDoPost_invalidAnswerId_throws.executor": "Run",
-    "JUnit.QuestServletTest.testDoPost_noAnswerId_redirectsToQuest.executor": "Run",
-    "JUnit.QuestServletTest.testDoPost_redirectsToNextQuestion.executor": "Run",
-    "JUnit.QuestServletTest.testDoPost_withoutAnswerId_redirectsToQuest.executor": "Run",
-    "JUnit.java in com.javarush.sukhinina.quest.executor": "Run",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "Maven.com.javarush.sukhinina.quest [clean].executor": "Run",
-    "Maven.com.javarush.sukhinina.quest [install].executor": "Run",
-    "Maven.com.javarush.sukhinina.quest [package].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Tomcat Server.Tomcat 10.1.44.executor": "Run",
-    "Tomcat Server.Tomcat 9.0.109.executor": "Run",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/mariasuhinina/IdeaProjects/com.javarush.sukhinina.quest/src/main/webapp",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.19310345",
-    "settings.editor.selected.configurable": "com.poratu.idea.plugins.tomcat.setting.TomcatServersConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.EndServletTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EndServletTest.testDoGet_forwardsToEndJsp_withEndText.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EndServletTest.testDoGet_forwardsToStartJsp.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EndServletTest.testDoGet_setsEndTextAttributeAndForwards.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.InitServletTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.InitServletTest.testDoGet_forwardsToStartJsp.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.QuestRepositoryTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.QuestServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.QuestServletTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.QuestServletTest.testDoGet.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.QuestServletTest.testDoGet_defaultQuestionId_setsQuestionAttribute.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.QuestServletTest.testDoGet_setsQuestionAttribute.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.QuestServletTest.testDoGet_withQuestionId.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.QuestServletTest.testDoGet_withQuestionId_setsCorrectQuestion.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.QuestServletTest.testDoGet_withoutQuestionId_defaultsTo1.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.QuestServletTest.testDoPost_finalAnswer_forwardsToEnd.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.QuestServletTest.testDoPost_forAnswer_setsEndAttributes_whenWinning.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.QuestServletTest.testDoPost_forWinningAnswer_forwardsToEnd.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.QuestServletTest.testDoPost_invalidAnswerId_throws.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.QuestServletTest.testDoPost_noAnswerId_redirectsToQuest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.QuestServletTest.testDoPost_redirectsToNextQuestion.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.QuestServletTest.testDoPost_withoutAnswerId_redirectsToQuest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.java in com.javarush.sukhinina.quest.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.com.javarush.sukhinina.quest [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.com.javarush.sukhinina.quest [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.com.javarush.sukhinina.quest [package].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Tomcat Server.Tomcat 10.1.44.executor&quot;: &quot;Run&quot;,
+    &quot;Tomcat Server.Tomcat 9.0.109.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/mariasuhinina/IdeaProjects/com.javarush.sukhinina.quest/src/main/webapp&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.19310345&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.poratu.idea.plugins.tomcat.setting.TomcatServersConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/webapp" />
@@ -277,7 +291,7 @@
       <workItem from="1758917481414" duration="138000" />
       <workItem from="1758917622801" duration="82000" />
       <workItem from="1758917715690" duration="22596000" />
-      <workItem from="1759070611156" duration="11656000" />
+      <workItem from="1759070611156" duration="12150000" />
     </task>
     <servers />
   </component>
