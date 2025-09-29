@@ -50,24 +50,24 @@ public class QuestRepositoryTest {
 
     @Test
     void testGetQuestionByIdExisting() {
-        Question q1 = repository.getQuestionById(1L);
-        assertNotNull(q1);
-        assertEquals(1L, q1.getId());
-        assertEquals(2, q1.getAnswers().size(), "Вопрос #1 должен содержать два ответа");
+        Question questionById = repository.getQuestionById(1L);
+        assertNotNull(questionById);
+        assertEquals(1L, questionById.getId());
+        assertEquals(2, questionById.getAnswers().size(), "Вопрос #1 должен содержать два ответа");
     }
 
     @Test
     void testGetQuestionByIdNonExisting() {
-        Question q999 = repository.getQuestionById(999L);
-        assertNull(q999, "Для несуществующего id метод должен возвращать null");
+        Question question = repository.getQuestionById(999L);
+        assertNull(question, "Для несуществующего id метод должен возвращать null");
     }
 
     @Test
     void testAnswersFromQuestions() {
-        for (Question q : repository.getQuestions().values()) {
-            for (Answer a : q.getAnswers()) {
-                assertTrue(repository.getAnswers().containsKey(a.getId()),
-                        "Ответ id=" + a.getId() + " должен быть в answers map");
+        for (Question question : repository.getQuestions().values()) {
+            for (Answer answer : question.getAnswers()) {
+                assertTrue(repository.getAnswers().containsKey(answer.getId()),
+                        "Ответ id=" + answer.getId() + " должен быть в answers map");
             }
         }
     }

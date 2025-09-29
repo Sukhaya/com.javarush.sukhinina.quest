@@ -70,32 +70,32 @@ public class QuestServiceTest {
 
     @Test
     void testChooseAnswer_NullNextQuestionIdWithoutWinLose() {
-        Question tempQ = new Question();
-        tempQ.setId(99L);
-        Answer a = new Answer();
-        a.setId(999L);
-        a.setNextQuestionId(null);
-        tempQ.setAnswers(List.of(a));
-        questService.addQuestionForTest(tempQ);
+        Question question = new Question();
+        question.setId(99L);
+        Answer answer = new Answer();
+        answer.setId(999L);
+        answer.setNextQuestionId(null);
+        question.setAnswers(List.of(answer));
+        questService.addQuestionForTest(question);
         assertThrows(NullPointerException.class, () -> questService.chooseAnswer(99L, 999L));
     }
 
     @Test
     void testChooseAnswer_4_41_WinCase() {
         Question next = questService.chooseAnswer(4L, 41L);
-        Answer a = questService.getAnswer(41L);
+        Answer answer = questService.getAnswer(41L);
         assertNull(next);
-        assertTrue(a.isWinning());
-        assertEquals("Ты получаешь 10 медных монет и опыт. Победа!", a.getEndText());
+        assertTrue(answer.isWinning());
+        assertEquals("Ты получаешь 10 медных монет и опыт. Победа!", answer.getEndText());
     }
 
     @Test
     void testChooseAnswer_5_52_LoseCase() {
         Question next = questService.chooseAnswer(5L, 52L);
-        Answer a = questService.getAnswer(52L);
+        Answer answer = questService.getAnswer(52L);
         assertNull(next);
-        assertTrue(a.isLosing());
-        assertEquals("Маг превратил тебя в овцу. Проигрыш!", a.getEndText());
+        assertTrue(answer.isLosing());
+        assertEquals("Маг превратил тебя в овцу. Проигрыш!", answer.getEndText());
     }
 
     @Test
