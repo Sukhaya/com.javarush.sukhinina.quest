@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="com.javarush.sukhinina.quest:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b4af1dec-8e5b-49c9-837f-c92e64022fcf" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/exportToHTML" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="33ElRg83RjEWqIBTZ1BtalXv2SN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.EndServletTest.executor": "Run",
+    "JUnit.EndServletTest.testDoGet_forwardsToEndJsp_withEndText.executor": "Run",
+    "JUnit.EndServletTest.testDoGet_forwardsToStartJsp.executor": "Run",
+    "JUnit.EndServletTest.testDoGet_setsEndTextAttributeAndForwards.executor": "Run",
+    "JUnit.InitServletTest.executor": "Run",
+    "JUnit.InitServletTest.testDoGet_forwardsToStartJsp.executor": "Run",
+    "JUnit.QuestRepositoryTest.executor": "Run",
+    "JUnit.QuestServiceTest.executor": "Run",
+    "JUnit.QuestServletTest.executor": "Run",
+    "JUnit.QuestServletTest.testDoGet.executor": "Run",
+    "JUnit.QuestServletTest.testDoGet_defaultQuestionId_setsQuestionAttribute.executor": "Run",
+    "JUnit.QuestServletTest.testDoGet_setsQuestionAttribute.executor": "Run",
+    "JUnit.QuestServletTest.testDoGet_withQuestionId.executor": "Run",
+    "JUnit.QuestServletTest.testDoGet_withQuestionId_setsCorrectQuestion.executor": "Run",
+    "JUnit.QuestServletTest.testDoGet_withoutQuestionId_defaultsTo1.executor": "Run",
+    "JUnit.QuestServletTest.testDoPost_finalAnswer_forwardsToEnd.executor": "Run",
+    "JUnit.QuestServletTest.testDoPost_forAnswer_setsEndAttributes_whenWinning.executor": "Run",
+    "JUnit.QuestServletTest.testDoPost_forWinningAnswer_forwardsToEnd.executor": "Run",
+    "JUnit.QuestServletTest.testDoPost_invalidAnswerId_throws.executor": "Run",
+    "JUnit.QuestServletTest.testDoPost_noAnswerId_redirectsToQuest.executor": "Run",
+    "JUnit.QuestServletTest.testDoPost_redirectsToNextQuestion.executor": "Run",
+    "JUnit.QuestServletTest.testDoPost_withoutAnswerId_redirectsToQuest.executor": "Run",
+    "JUnit.java in com.javarush.sukhinina.quest.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.com.javarush.sukhinina.quest [clean].executor": "Run",
+    "Maven.com.javarush.sukhinina.quest [install].executor": "Run",
+    "Maven.com.javarush.sukhinina.quest [package].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Tomcat Server.Tomcat 10.1.44.executor": "Run",
+    "Tomcat Server.Tomcat 9.0.109.executor": "Run",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/mariasuhinina/IdeaProjects/com.javarush.sukhinina.quest/src/main/webapp",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.19310345",
+    "settings.editor.selected.configurable": "com.poratu.idea.plugins.tomcat.setting.TomcatServersConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
+      <recent name="$PROJECT_DIR$/src/tests/java" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.109">
+    <configuration name="EndServletTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.javarush.sukhinina.quest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="EndServletTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EndServletTest.testDoGet_forwardsToEndJsp_withEndText" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.javarush.sukhinina.quest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="EndServletTest" />
+      <option name="METHOD_NAME" value="testDoGet_forwardsToEndJsp_withEndText" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuestServletTest.testDoPost_finalAnswer_forwardsToEnd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.javarush.sukhinina.quest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="QuestServletTest" />
+      <option name="METHOD_NAME" value="testDoPost_finalAnswer_forwardsToEnd" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuestServletTest.testDoPost_redirectsToNextQuestion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.javarush.sukhinina.quest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="QuestServletTest" />
+      <option name="METHOD_NAME" value="testDoPost_redirectsToNextQuestion" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="java in com.javarush.sukhinina.quest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.javarush.sukhinina.quest" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 9.0.109" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.109" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/myapp/start" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="com.javarush.sukhinina.quest:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/myapp" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="ce279254-feea-4f96-afb5-3ea14fa8850c" />
+        <option name="JNDI_PORT" value="1098" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="63935" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="com.javarush.sukhinina.quest:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.EndServletTest" />
+      <item itemvalue="JUnit.EndServletTest.testDoGet_forwardsToEndJsp_withEndText" />
+      <item itemvalue="JUnit.QuestServletTest.testDoPost_finalAnswer_forwardsToEnd" />
+      <item itemvalue="JUnit.QuestServletTest.testDoPost_redirectsToNextQuestion" />
+      <item itemvalue="JUnit.java in com.javarush.sukhinina.quest" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.109" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.java in com.javarush.sukhinina.quest" />
+        <item itemvalue="JUnit.EndServletTest.testDoGet_forwardsToEndJsp_withEndText" />
+        <item itemvalue="JUnit.EndServletTest" />
+        <item itemvalue="JUnit.QuestServletTest.testDoPost_redirectsToNextQuestion" />
+        <item itemvalue="JUnit.QuestServletTest.testDoPost_finalAnswer_forwardsToEnd" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b4af1dec-8e5b-49c9-837f-c92e64022fcf" name="Changes" comment="" />
+      <created>1758890106408</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1758890106408</updated>
+      <workItem from="1758890108870" duration="27000" />
+      <workItem from="1758890147722" duration="24112000" />
+      <workItem from="1758917217151" duration="248000" />
+      <workItem from="1758917481414" duration="138000" />
+      <workItem from="1758917622801" duration="82000" />
+      <workItem from="1758917715690" duration="22596000" />
+      <workItem from="1759070611156" duration="11656000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

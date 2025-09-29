@@ -1,0 +1,46 @@
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee
+                             https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
+         version="5.0">
+
+<display-name>World of Warcraft Quest</display-name>
+
+  <!-- Определение сервлета -->
+  <servlet>
+    <servlet-name>QuestServlet</servlet-name>
+    <servlet-class>web.QuestServlet</servlet-class>
+  </servlet>
+
+  <!-- Маппинг сервлета на URL /quest -->
+  <servlet-mapping>
+    <servlet-name>QuestServlet</servlet-name>
+    <url-pattern>/quest</url-pattern>
+  </servlet-mapping>
+
+  <!-- Определение сервлета -->
+  <servlet>
+    <servlet-name>InitServlet</servlet-name>
+    <servlet-class>web.InitServlet</servlet-class>
+  </servlet>
+
+  <!-- Маппинг сервлета на URL /quest -->
+  <servlet-mapping>
+    <servlet-name>InitServlet</servlet-name>
+    <url-pattern>/start</url-pattern>
+  </servlet-mapping>
+
+
+  <!-- Определение сервлета -->
+  <servlet>
+    <servlet-name>EndServlet</servlet-name>
+    <servlet-class>web.EndServlet</servlet-class>
+  </servlet>
+
+  <!-- Маппинг сервлета на URL /quest -->
+  <servlet-mapping>
+    <servlet-name>EndServlet</servlet-name>
+    <url-pattern>/end</url-pattern>
+  </servlet-mapping>
+
+</web-app>
